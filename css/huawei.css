@@ -1,0 +1,422 @@
+body{
+	font-style: "宋体";
+	text-align: center;
+}
+tr,th,td,input,textarea,body{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.ding{
+	position: fixed;
+	width: 50px;
+	height: 155px;
+	top: 250px;
+	right: 0px;
+	opacity: 0.8;
+}
+.ding1{
+	background:url(../image/ding_01.png);
+	width: 50px;
+	height: 50px;
+}
+.ding1:hover{
+	background:url(../image/zai.png);
+}
+.ding1{
+	background:url(../image/ding_02.png);
+	width: 50px;
+	height: 50px;
+}
+.ding1:hover{
+	background:url(../image/you.png);
+}
+.ding1{
+	background:url(../image/ding_02.png);
+	width: 50px;
+	height: 50px;
+}
+.ding1:hover{
+	background:url(../image/dian.png);
+}
+/*顶部*/
+.index{
+	width: 100%;
+	height: 36px;
+	background: #5d5d58;
+}
+.index-top{
+	width: 1170px;
+	height: 36px;
+	margin: 0 auto;
+	
+}
+.index-top a{
+	font-size: 15px;
+	line-height: 36px;
+	color: #ccc;
+	text-decoration: none;
+	padding: 0px 15px;
+	float: left;
+}
+.index-top a:hover{
+	background-color: #333;
+}
+/*首页单独白背景字*/
+#index1{
+    background: #fff;
+}
+/*logo*/
+.logo-box{
+	width: 1170px;
+	height:15px;
+	margin: 0 auto;
+}
+.logo-left{
+	width: 100px;
+    height: 15px;
+    float: left;
+    line-height: 15px;
+    margin: 10px 0px;
+}
+.logo-right{
+	width: 320px;
+	float: right;
+    line-height:15px;
+}
+.logo-right span{
+    margin: 0 6px;
+}
+.logo-right a{
+	font-size: 12px;
+	color: #333;
+	line-height: 80px;
+}
+.logo-right a:hover{
+	text-decoration: underline;
+}
+.logo-right .icom{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	vertical-align: middle;
+	background-image: url(../image/icom.png);
+}
+.logo-weiin{
+	background-position:0 -38px;
+
+}
+.logo-weibo{
+	background-position:0 -76px;
+
+}
+
+/*产品导航*/
+.cp-box{
+	width: 100%;
+	height: 53px;
+	float: left;
+	background-color:#f7f7f7;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	min-width: 1170px;
+}
+.cp-list{
+	width: 1170px;
+	height: 53px;
+	margin: 0 auto;	
+}
+.cp-left{
+	width: 850px;
+	height: 53px;
+	float: left;
+
+}
+.cp-want{
+	height: 53px;
+	width: 130px;
+	border-radius: 10px;
+	float: left;
+	background-color: #fff;
+	line-height: 53px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+.cp-tou{
+    width:18px; 
+    height:53px;
+    margin-left: 0px;
+	float: left;
+	background: url(../image/images/tou.png)  no-repeat center;
+}
+.wenzi{
+	width: 45px;
+	height: 53px;
+	line-height:53px;
+	text-align: center;
+	margin-left: 25px;
+	float: left;
+
+}
+.cp-want .cp-jian{
+    width:20px; 
+    height:53px;
+	float: right;
+	background: url(../image/images/jian.png)  no-repeat center left;
+
+}
+.cp-want .cp-jian:hover{
+	background: url(../image/images/jian.png)  no-repeat center right;
+
+}
+.cp-want .wenzi:hover{
+	color: red;
+}
+.cp-list a{
+	font-size: 15px;
+	line-height: 53px;
+	color: #000;
+	text-decoration: none;
+	margin: 0px 15px;
+	float: left;
+}
+.cp-list a:hover{
+	color: red;
+	border-bottom: 2px solid red;
+}
+.cp-list span{
+	font-size: 15px;
+	line-height: 53px;
+	color: #000;
+	text-decoration: none;
+	margin: 0px 15px;
+	float: left;
+}
+.cp-list span:hover{
+	color: red;
+	border-bottom: 2px solid red;
+}
+.cp-right{
+	width: 180px;
+	height: 37px;
+    margin-top:7px;
+    background-color: #fff;
+    float: right;
+}
+#text{
+	width: 145px;
+	height: 37px;
+	border: 0px;
+	float: left;
+}
+.sousuo{
+	height: 37px;
+	width: 30px;
+	background: url(../image/images/sousuo.png) no-repeat center;
+	float: right;
+	cursor: pointer; 
+
+
+}
+.banner{
+	width: 1170px;
+	height: 560px;
+	margin: 0 auto;
+}
+.yuan1{
+	position: relative;
+	left: 48%;
+	top: 20px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color:#ccc;
+}
+.yuan2{
+	position: relative;
+	left: 50%;
+	top: 0px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: red;
+}
+.yuan3{
+	position: relative;
+	left:52%;
+	top: -20px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #ccc;
+}
+.ljie{
+	position: absolute;
+	width: 148px;
+	height: 42px;
+	border-radius: 10px;
+	background-color: #b02d2e;
+	top: 550px;
+	left: 58%;
+	
+	font-size: 16px;
+	text-align: center;
+	line-height: 42px;
+}
+.ljie a{
+	text-decoration: none;
+	color: #fff;
+}
+.ljie:hover{
+	background-color: red;
+}
+
+.news-box{
+	width: 1170px;
+	height: 62px;
+	background-color: #f7f7f7;
+	margin: 0 auto;
+}
+.news-box1{
+	width: 120px;
+	height: 62px;
+	font-size: 16px;
+	line-height: 62px;
+	padding: 0 0 0 50px;
+	background-color: #e5e5e5;
+	float: left;
+}
+.news-box2{
+	width: 550px;
+	height: 62px;
+	font-size: 16px;
+	line-height: 62px;
+	padding: 0 0 0 50px;
+	background-color: #f7f7f7;
+	float: left;
+}
+.newlist{
+	width: 1170px;
+	height: 414px;
+	margin:0 auto;
+}
+.newlist-box1{
+	width: 370px;
+	height: 414px;
+	float:left;
+}
+.newlist-img1{
+	width: 414px;
+	height: 292px;
+
+}
+.newlist-title{
+	width: 100%;
+	height: 52px;
+	font-weight:bold; 
+	line-height: 30px;
+
+}
+.newlist-title:hover{
+    text-decoration: underline;
+}
+.newlist-nei{
+	width: 100%;
+	height: 70px;
+	line-height: 20px;
+}
+#one{
+	margin:0px 30px;
+}
+
+.datu{
+	width: 1170px;
+	height: 604px;
+	margin:auto;
+	float: left;
+}
+/*底部图*/
+.xin-list{
+	width: 100%;
+	height: 257px;
+	background:#f5f5f5;
+}
+.xin-list1{
+	width: 1170px;
+	height: 257px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+.box1{
+	width: 370px;
+	height: 190px;
+	text-align: left;
+	float: left;
+}
+.box2{
+	width: 370px;
+	height: 115px;
+	margin-left:0px; 
+	margin-top: 10px;
+}
+.box3{
+	width: 250px;
+	height: 110px;
+	float: right;
+	text-align: left;	
+}
+#box-left{
+	margin: 0px 30px 0px;
+	
+}
+
+/*footer底下信息*/
+.footer-box a:link {
+  color: #f5f5f5;
+  text-decoration: none; 
+}
+.footer-box a:visited{
+	color: #f5f5f5;
+
+}
+.footer-box a:hover{
+	text-decoration: underline;
+}
+.footer-box{
+	height: 380px;
+	width: 100%;
+	min-width: 1170px;
+	background: #272727;
+	min-width: 1170px;
+	float: left;
+}
+.footer-box1{
+	width: 680px;
+	height: 200px;
+	float: left;
+	margin-top: 50px;
+	color: #fff;
+}
+.footer-box2{
+	float: right;
+	margin-top: 0px;
+	color: #fff;
+	margin: 60px 30px;
+}
+.footer{
+	widows: 1170px;
+	float: left;
+	margin: 0 auto;
+	color: #fff;
+}
+.footer1{
+	width: 800px;
+	float: left;
+    line-height:15px;
+}
+.footer2{
+	width: 320px;
+	float: right;
+    line-height:15px;
+}
